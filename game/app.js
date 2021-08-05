@@ -58,6 +58,7 @@ function checkForMatch() {
 	resultDisplay.textContent = cardsWon.length
 	if (cardsWon.length === 6) {
 		resultDisplay.textContent = 'Congratulation! You Found Them All!'
+		alert('Congratulation! You Found Them All!');location.href='index.html'
 	}
 }
 
